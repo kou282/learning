@@ -1,0 +1,19 @@
+<html>
+<head><title>41-1</title>
+<script type="text/javascript">
+  function buttonclick(){
+    document.getElementById('msg1').innerHTML=document.getElementById('text').value
+    document.getElementById('msg2').innerHTML=document.getElementById('text').value
+    document.getElementById('msg3').innerHTML=document.getElementById('text').value
+  }
+</script>
+</head>
+<body>
+  <h1>input text three times</h1>
+  input:<input type="text"id="text"><br>
+  <button onclick="buttonclick();">send</button>
+  <div id="msg1"></div>
+  <div id="msg2"></div>
+  <div id="msg3"></div>
+</body>
+</html>

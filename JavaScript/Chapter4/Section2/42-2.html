@@ -1,0 +1,19 @@
+<html>
+<head><title>42-2</title>
+<script type="text/javascript">
+  function buttonclick(){
+    a=document.getElementById('last').value
+    b=document.getElementById('first').value
+    document.getElementById('msg').innerHTML=a + b;
+
+  }
+</script>
+</head>
+<body>
+  <h1>input name</h1>
+  input lastname!:  <input type="text"id="last"><br>
+  input firstname!: <input type="text"id="first"><br>
+  <button onclick="buttonclick();">send</button>
+  <div id="msg"></div>
+</body>
+</html>
